@@ -5,22 +5,25 @@
 	</Storages>
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Children>
-			<Child Name="Sys" Key="{A35B1422-BBAD-4069-A97C-48ED2A085049}">
+			<Child Name="Sys" Key="{A6BFD421-4136-457D-A884-AE28DFC989C0}">
+				<TypeInfo Item0="{5512462E-EC85-4CD2-B355-0FD6D502624D}" />
 				<Properties>
 					<Property Name="Name">
 						<Value Value="Sys" />
 					</Property>
 				</Properties>
 				<Children>
-					<Child Name="MyAQA" Key="{1605A278-7CBA-44AE-8DD4-6C56FBB9EF81}">
+					<Child Name="MyAQA" Key="{1AA83B4C-9B2B-41B8-81CE-FD4D4B2962B4}">
+						<TypeInfo Item0="{76348937-8206-4744-BBAA-F4A294452A78}" />
 						<Properties>
 							<Property Name="ProcessName">
 								<Value Value="MyAQA" />
 							</Property>
 						</Properties>
 						<Children>
-							<Child Name="frmMain" Key="{6E6D2F8F-A6D9-462D-B95C-F6169475AF38}">
-								<TypeInfo Item0="{EC815B53-43E4-41CC-AA0B-A2D77794A15A}" />
+							<Child Name="frmMain" Key="{D8DEA82D-CC2A-458D-8F33-772C625A8C53}">
+								<Image FileName="348265224" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{527EE1A0-ABED-4875-959E-42B90517B722}" />
 								<Properties>
 									<Property Name="ClassName">
 										<Value Value="TfrmMain" />
@@ -30,8 +33,9 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="pnlAllArea" Key="{8F955F64-C23D-4C47-95B1-434522E6C586}">
-										<Image FileName="886067044" Left="0" Top="73" Right="1920" Bottom="1040" />
+									<Child Name="pnlAllArea" Key="{7262B593-6E69-4DF4-B3A3-FD9670E110F7}">
+										<Image FileName="348265224" Left="8" Top="81" Right="1928" Bottom="1048" />
+										<TypeInfo Item0="{252D7BC2-C781-4AEC-A959-BD09FA6F66F4}" />
 										<Properties>
 											<Property Name="ClassName">
 												<Value Value="TPanel" />
@@ -41,8 +45,9 @@
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="plClient" Key="{9C257736-49A7-4BB3-A267-6A4540BAEB11}">
-												<Image FileName="886067044" Left="128" Top="73" Right="1920" Bottom="1037" />
+											<Child Name="plClient" Key="{8EF00B79-7A57-44AE-8471-F524F6CA1B55}">
+												<Image FileName="348265224" Left="136" Top="81" Right="1928" Bottom="1045" />
+												<TypeInfo Item0="{D4D70C57-4E9C-4DBF-B0B6-6217F80F0FEB}" />
 												<Properties>
 													<Property Name="ClassName">
 														<Value Value="TPanel" />
@@ -52,8 +57,9 @@
 													</Property>
 												</Properties>
 												<Children>
-													<Child Name="frmCustomerFind" Key="{D274E519-8D8C-4247-A79F-3E453167D638}">
-														<Image FileName="886067044" Left="128" Top="73" Right="1920" Bottom="1037" />
+													<Child Name="frmCustomerFind" Key="{44A22C77-8058-42CC-9ED2-432E96CEF2EC}">
+														<Image FileName="348265224" Left="136" Top="81" Right="1928" Bottom="1045" />
+														<TypeInfo Item0="{15B5AEBB-F0BF-4350-B5ED-8A42EDF222AA}" />
 														<Properties>
 															<Property Name="ClassName">
 																<Value Value="TfrmCustomerFind" />
@@ -63,8 +69,9 @@
 															</Property>
 														</Properties>
 														<Children>
-															<Child Name="pnlSearch" Key="{2782654D-16B1-45B3-9D7E-D4D736032D87}">
-																<Image FileName="886067044" Left="128" Top="101" Right="1920" Bottom="162" />
+															<Child Name="pnlSearch" Key="{F4DEA1C0-D11D-400D-BABE-FABDDD7307BB}">
+																<Image FileName="348265224" Left="136" Top="109" Right="1928" Bottom="170" />
+																<TypeInfo Item0="{252D7BC2-C781-4AEC-A959-BD09FA6F66F4}" />
 																<Properties>
 																	<Property Name="ClassName">
 																		<Value Value="TPanel" />
@@ -74,27 +81,41 @@
 																	</Property>
 																</Properties>
 																<Children>
-																	<Child Name="edSearch1" Key="{62768F3F-24D4-4B8D-9D2B-43D26A815517}">
-																		<Image FileName="886067044" Left="197" Top="137" Right="397" Bottom="158" />
-																		<TypeInfo Item0="{EE8FDF02-B295-418A-8F47-98F3F3FDB7E2}" />
-																		<Properties>
-																			<Property Name="ClassName">
-																				<Value Value="TdxEdit" />
-																			</Property>
-																			<Property Name="ObjectIdentifier">
-																				<Value Value="edSearch1" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																	<Child Name="btnSearch" Key="{1182FD10-FC81-434B-A64D-8A0B29D365E8}">
-																		<Image FileName="-980340268" Left="424" Top="103" Right="513" Bottom="128" />
-																		<TypeInfo Item0="{4E089D41-F99C-4BA0-8240-A136BABBAF82}" />
+																	<Child Name="btnAdvSearch" Key="{AA1602C7-D153-454C-B814-3B860AFB4354}">
+																		<Image FileName="348265224" Left="528" Top="111" Right="641" Bottom="136" />
+																		<TypeInfo Item0="{847B05DC-23D7-4775-AAD3-6365EB576254}" />
 																		<Properties>
 																			<Property Name="ClassName">
 																				<Value Value="TButton" />
 																			</Property>
 																			<Property Name="ObjectIdentifier">
-																				<Value Value="btnSearch" />
+																				<Value Value="btnAdvSearch" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="pnlClient" Key="{2AE138F0-6603-4B75-8FFA-E1C2574D7014}">
+																<Image FileName="348265224" Left="136" Top="170" Right="1928" Bottom="1045" />
+																<TypeInfo Item0="{252D7BC2-C781-4AEC-A959-BD09FA6F66F4}" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value Value="TPanel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="pnlClient" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="DBGrid" Key="{7CF94EDA-3AFC-456C-93E5-56C33E0D9108}">
+																		<Image FileName="348265224" Left="139" Top="173" Right="1925" Bottom="1042" />
+																		<TypeInfo Item0="{15B5AEBB-F0BF-4350-B5ED-8A42EDF222AA}" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value Value="TmdxDBGrid" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="DBGrid" />
 																			</Property>
 																		</Properties>
 																	</Child>
@@ -104,21 +125,21 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="SideBar" Key="{2D08B66B-248A-4754-85F4-2219548142A0}">
+												<Image FileName="348265224" Left="8" Top="81" Right="133" Bottom="1045" />
+												<TypeInfo Item0="{83580241-F2FB-49FA-80D4-06DD9832FC65}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TdxSideBar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="SideBar" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
-							</Child>
-							<Child Name="frmEditForm" Key="{A16DDFBD-67B1-4BC4-A442-6D5CB627D2C6}">
-								<Image FileName="1826955433" Left="-8" Top="-8" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{EC815B53-43E4-41CC-AA0B-A2D77794A15A}" />
-								<Properties>
-									<Property Name="ClassName">
-										<Value Value="TfrmEditForm" />
-									</Property>
-									<Property Name="ObjectIdentifier">
-										<Value Value="frmEditForm" />
-									</Property>
-								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -127,20 +148,22 @@
 		</Children>
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
-		<Child Name="MyAQA" Owner="{1605A278-7CBA-44AE-8DD4-6C56FBB9EF81}">
-			<Child Name="frmMain" Owner="{6E6D2F8F-A6D9-462D-B95C-F6169475AF38}">
-				<Child Name="pnlAllArea" Owner="{8F955F64-C23D-4C47-95B1-434522E6C586}">
-					<Child Name="plClient" Owner="{9C257736-49A7-4BB3-A267-6A4540BAEB11}">
-						<Child Name="frmCustomerFind" Owner="{D274E519-8D8C-4247-A79F-3E453167D638}">
-							<Child Name="pnlSearch" Owner="{2782654D-16B1-45B3-9D7E-D4D736032D87}">
-								<Child Name="edSearch1" Owner="{62768F3F-24D4-4B8D-9D2B-43D26A815517}" />
-								<Child Name="btnSearch" Owner="{1182FD10-FC81-434B-A64D-8A0B29D365E8}" />
+		<Child Name="MyAQA" Owner="{1AA83B4C-9B2B-41B8-81CE-FD4D4B2962B4}">
+			<Child Name="frmMain" Owner="{D8DEA82D-CC2A-458D-8F33-772C625A8C53}">
+				<Child Name="pnlAllArea" Owner="{7262B593-6E69-4DF4-B3A3-FD9670E110F7}">
+					<Child Name="plClient" Owner="{8EF00B79-7A57-44AE-8471-F524F6CA1B55}">
+						<Child Name="frmCustomerFind" Owner="{44A22C77-8058-42CC-9ED2-432E96CEF2EC}">
+							<Child Name="pnlSearch" Owner="{F4DEA1C0-D11D-400D-BABE-FABDDD7307BB}">
+								<Child Name="btnAdvSearch" Owner="{AA1602C7-D153-454C-B814-3B860AFB4354}" />
+							</Child>
+							<Child Name="pnlClient" Owner="{2AE138F0-6603-4B75-8FFA-E1C2574D7014}">
+								<Child Name="DBGrid" Owner="{7CF94EDA-3AFC-456C-93E5-56C33E0D9108}" />
 							</Child>
 						</Child>
 					</Child>
+					<Child Name="SideBar" Owner="{2D08B66B-248A-4754-85F4-2219548142A0}" />
 				</Child>
 			</Child>
-			<Child Name="frmEditForm" Owner="{A16DDFBD-67B1-4BC4-A442-6D5CB627D2C6}" />
 		</Child>
 	</LogicalNodes>
 </Root>
